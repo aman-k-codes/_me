@@ -45,7 +45,7 @@
 ### 📬 Connect With Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/aman-sahu-502a1b239/" target="_blank"><img src="https://img.shields.io/badge/-Aman%20Sahu-blue?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/aman-k-codes/" target="_blank"><img src="https://img.shields.io/badge/-Aman%20Sahu-blue?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
   <a href="mailto:amansahu.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
