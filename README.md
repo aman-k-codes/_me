@@ -4,12 +4,12 @@
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 - 🔭 I’m currently working on **AI tools and productivity web apps**
-- 🌱 I’m currently learning **Deep Learning, Data Science, and Advanced Mathematics**
+- 🌱 I’m currently learning **Machine Learning, Deep Learning, Data Science, and Advanced Mathematics**
 - 👯 I’m open to collaborating on **AI tools, SaaS products, and open-source projects**
 - 📝 I regularly write tech blogs and share insights on [LinkedIn](https://www.linkedin.com/in/aman-k-codes/)
 - 💬 Ask me about **Laravel, JavaScript, Python (Flask), and full stack development**
 - 📫 Reach me at: **amansahu.dev@gmail.com**
-- 🌐 Portfolio (soon): [codeforcrack.com](https://codeforcrack.com)
+- 🌐 Portfolio: [codeforcrack.com](https://codeforcrack.com)
 - ⚡ Fun fact: I turn ✨ideas into code✨
 
 ---
