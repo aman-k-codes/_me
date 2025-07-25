@@ -8,7 +8,7 @@
 - 👯 I’m open to collaborating on **AI tools, SaaS products, and open-source projects**
 - 📝 I regularly write tech blogs and share insights on [LinkedIn](https://www.linkedin.com/in/aman-k-codes/)
 - 💬 Ask me about **Laravel, JavaScript, Python (Flask), and full stack development**
-- 📫 Reach me at: **amansahu.dev@gmail.com**
+- 📫 Reach me at: **amansahu.er@gmail.com**
 - 🌐 Portfolio: [codeforcrack.com](https://codeforcrack.com)
 - ⚡ Fun fact: I turn ✨ideas into code✨
 
@@ -46,7 +46,7 @@
 
 <p align="left">
   <a href="https://www.linkedin.com/in/aman-k-codes/" target="_blank"><img src="https://img.shields.io/badge/-Aman%20Sahu-blue?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
-  <a href="mailto:amansahu.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:amansahu.er@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 ---
