@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[left=1.25cm,right=1.25cm,top=1.25cm,bottom=1.25cm]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{charter} % Professional font used in tech resumes
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{6pt}
+
+\begin{document}
+
+%==================== HEADER ====================
+\begin{center}
+    {\Huge \textbf{AMAN KUMAR}} \\
+    \vspace{6pt}
+    {\Large \textbf{Software Engineer}} \\ % <--- JOB TITLE ADDED HERE
+    \vspace{4pt}
+    \href{mailto:amansahu.er@email.com}{amansahu.er@email.com} \textperiodcentered \ 
+    +91-8319151766 \textperiodcentered \ 
+    \href{https://www.linkedin.com/in/aman-k-codes/}{LinkedIn} \textperiodcentered \ 
+    \href{https://github.com/aman-k-codes}{GitHub}
+\end{center}
+
+%==================== SKILLS ====================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=2pt]
+    \item \textbf{Languages:} Python, JavaScript (ES6+), PHP, SQL (MySQL/PostgreSQL), C++
+    \item \textbf{Frameworks \& Tools:} Laravel, Flask, React Native, Git
+    \item \textbf{Core Competencies:} Distributed Systems, API Design (REST/gRPC), Data Structures \& Algorithms, CI/CD
+\end{itemize}
+
+%==================== EXPERIENCE ====================
+\section{Professional Experience}
+
+\textbf{Laravel Developer} \hfill Jul 2024 -- Present \\
+\textit{ISKCON Bangalore} \hfill \textit{Bangalore, India}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+    \item \textbf{Architected} a high-throughput backend using Laravel, migrating legacy monolith components to microservices to support 50k+ monthly active users.
+    \item \textbf{Engineered} a RESTful API layer with OAuth2.0 authentication, reducing unauthorized access attempts by 95\% through rigorous security validation.
+    \item \textbf{Optimized} complex MySQL queries and implemented Redis caching, resulting in a \textbf{30\% reduction} in end-to-end API latency and improved server cost-efficiency by 15\%.
+    \item \textbf{Led} the integration of automated unit testing (PHPUnit), increasing code coverage from 40\% to 85\% and reducing production bugs by 20\%.
+\end{itemize}
+
+\textbf{Software Engineer Intern} \hfill Jul 2023 -- Jun 2023 \\
+\textit{FixingDots} \hfill \textit{Remote}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+    \item \textbf{Developed} an HR management module using Laravel and Livewire, streamlining internal workflows for 200+ employees.
+    \item \textbf{Refactored} UI components into reusable React/Livewire modules, decreasing frontend bundle size and improving page load times by 1.2s.
+    \item \textbf{Automated} document generation workflows using Python/Flask, saving the HR department 15+ manual hours per week.
+\end{itemize}
+
+%==================== PROJECTS ====================
+\section{Technical Projects}
+
+\textbf{CraftMyDoc | Distributed Document Processing} \hfill \textit{Python, Flask, Laravel, Javascript}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+    \item Designed a scalable document conversion engine handling PDF/Image processing via asynchronous task queues.
+    \item Implemented a background removal tool using OpenCV and deep learning models, achieving 98\% accuracy in edge detection.
+\end{itemize}
+
+\textbf{Basilwood School ERP | School Management System} \hfill \textit{Laravel, MySQL, JavaScript}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+    \item Developed a modular School ERP system to manage student records, staff data, schedules, and administrative workflows.
+    \item Resolved double-allocation issues in class and resource scheduling by implementing database-level row locking and atomic transactions.
+    \item Built role-based admin dashboards for school administrators to manage operations with data-driven insights.
+    \item Optimized database queries and indexing strategies to ensure consistent performance under concurrent access.
+\end{itemize}
+
+
+%==================== EDUCATION ====================
+\section{Education}
+\textbf{Bachelor of Technology (or Science) in Computer Science} \hfill \textit{Graduated Month Year} \\
+Relevant Coursework: Algorithms, Operating Systems, Computer Networks, Distributed Systems
+
+\end{document}
