@@ -1,0 +1,20 @@
+Dear Hiring Team,
+
+I am writing to express my interest in the PHP Backend Developer role at Deccan AI Experts. With over 2 years of hands-on experience building and reviewing production-grade backend systems using PHP, Laravel, and MySQL, I am excited by the opportunity to contribute to your RLHF and annotation initiatives focused on improving AI reasoning around real-world backend codebases.
+
+In my current and previous roles, I have worked extensively on backend service development, RESTful APIs, ORM-driven database interactions, and performance optimization. Beyond feature development, a significant part of my work involves reviewing backend code, analyzing pull requests, identifying bugs and edge cases, and reasoning about correctness, security, and maintainability. This has helped me develop a structured approach to evaluating backend logic and communicating technical feedback clearly—skills that align closely with high-quality annotation and AI training workflows.
+
+I am comfortable working with Laravel-based MVC architectures, analyzing migrations and query performance, and executing test suites using tools like PHPUnit. My experience with Git-based workflows and large codebases has also made me effective in asynchronous collaboration environments, where clarity, consistency, and precision are critical.
+
+What excites me most about Deccan AI Experts is your mission to build AI for Good. The opportunity to apply my backend expertise toward improving AI systems—by providing accurate, thoughtful, and high-quality human feedback—strongly resonates with my interest in combining engineering rigor with meaningful societal impact.
+
+I would welcome the opportunity to contribute to your team on a flexible, project-based basis and help improve the quality and reasoning capabilities of AI models trained on real-world PHP backend systems. Thank you for your time and consideration.
+
+Warm regards,
+Aman Kumar
+PHP Backend Developer
+📧 amansahu.er@gmail.com
+
+🔗 GitHub: https://github.com/aman-k-codes
+
+🔗 LinkedIn: https://www.linkedin.com/in/aman-k-codes/
