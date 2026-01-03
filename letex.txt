@@ -1,27 +1,30 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article} % Reduced font to 10pt for better fit
 
-\usepackage[left=1.25cm,right=1.25cm,top=1.25cm,bottom=1.25cm]{geometry}
+\usepackage[left=1.0cm,right=1.0cm,top=1.0cm,bottom=1.0cm]{geometry} % Tightened margins
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
-\usepackage{charter} % Professional font used in tech resumes
+\usepackage{charter} 
 
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
 
-% Section formatting
+% Tightened section formatting
 \titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{8pt}{6pt}
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Custom list settings to save space
+\setlist[itemize]{noitemsep, topsep=0pt, parsep=2pt, partopsep=0pt}
 
 \begin{document}
 
 %==================== HEADER ====================
 \begin{center}
     {\Huge \textbf{AMAN KUMAR}} \\
-    \vspace{6pt}
-    {\Large \textbf{Software Engineer}} \\ % <--- JOB TITLE ADDED HERE
-    \vspace{4pt}
-    \href{mailto:amansahu.er@email.com}{amansahu.er@email.com} \textperiodcentered \ 
+    \vspace{2pt}
+    {\Large \textbf{Software Engineer}} \\ 
+    \vspace{2pt}
+    \href{mailto:amansahu.er@gmail.com}{amansahu.er@gmail.com} \textperiodcentered \ 
     +91-8319151766 \textperiodcentered \ 
     \href{https://www.linkedin.com/in/aman-k-codes/}{LinkedIn} \textperiodcentered \ 
     \href{https://github.com/aman-k-codes}{GitHub}
@@ -29,53 +32,60 @@
 
 %==================== SKILLS ====================
 \section{Technical Skills}
-\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=2pt]
-    \item \textbf{Languages:} Python, JavaScript (ES6+), PHP, SQL (MySQL/PostgreSQL), C++
-    \item \textbf{Frameworks \& Tools:} Laravel, Flask, React Native, Git
-    \item \textbf{Core Competencies:} Distributed Systems, API Design (REST/gRPC), Data Structures \& Algorithms, CI/CD
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Languages:} PHP (Laravel), JavaScript (Vue.js, jQuery), Python (Flask), SQL (MySQL)
+    \item \textbf{Tools \& Frameworks:} Livewire, AJAX, Tailwind CSS, Docker, Redis, Git, GitHub, Postman
+    \item \textbf{Core Competencies:} System Design, RESTful API Development, Database Optimization, GATE DA \& AI Aspirant
 \end{itemize}
 
 %==================== EXPERIENCE ====================
 \section{Professional Experience}
 
-\textbf{Laravel Developer} \hfill Jul 2024 -- Present \\
+\textbf{Software Engineer} \hfill Jul 2024 -- Present \\
 \textit{ISKCON Bangalore} \hfill \textit{Bangalore, India}
-\begin{itemize}[leftmargin=*, itemsep=2pt]
-    \item \textbf{Architected} a high-throughput backend using Laravel, migrating legacy monolith components to microservices to support 50k+ monthly active users.
-    \item \textbf{Engineered} a RESTful API layer with OAuth2.0 authentication, reducing unauthorized access attempts by 95\% through rigorous security validation.
-    \item \textbf{Optimized} complex MySQL queries and implemented Redis caching, resulting in a \textbf{30\% reduction} in end-to-end API latency and improved server cost-efficiency by 15\%.
-    \item \textbf{Led} the integration of automated unit testing (PHPUnit), increasing code coverage from 40\% to 85\% and reducing production bugs by 20\%.
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Architected} enterprise modules for Basil Woods ERP and Devotee Relation Management (DRM) using Laravel and Vue.js.
+    \item \textbf{Engineered} a high-throughput backend supporting 50k+ users, migrating legacy code to modular microservices.
+    \item \textbf{Optimized} MySQL queries and indexing for DCC-TRP, achieving a \textbf{30\% reduction} in end-to-end API latency.
+    \item \textbf{Developed} secure RESTful APIs with RBAC, ensuring data integrity across school and inventory modules.
 \end{itemize}
 
-\textbf{Software Engineer Intern} \hfill Jul 2023 -- Jun 2023 \\
-\textit{FixingDots} \hfill \textit{Remote}
-\begin{itemize}[leftmargin=*, itemsep=2pt]
-    \item \textbf{Developed} an HR management module using Laravel and Livewire, streamlining internal workflows for 200+ employees.
-    \item \textbf{Refactored} UI components into reusable React/Livewire modules, decreasing frontend bundle size and improving page load times by 1.2s.
-    \item \textbf{Automated} document generation workflows using Python/Flask, saving the HR department 15+ manual hours per week.
+\textbf{Software Developer} \hfill Jun 2023 -- Jun 2024 \\
+\textit{FixingDots} \hfill \textit{Raipur, India}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Designed} FixHR, a comprehensive HRMS handling attendance, leave, and salary processing for 200+ employees.
+    \item \textbf{Refactored} frontend logic using Livewire and AJAX, significantly reducing page load times and bundle size.
+    \item \textbf{Automated} record workflows, saving 15+ manual administrative hours per week through digitized documentation.
 \end{itemize}
 
 %==================== PROJECTS ====================
 \section{Technical Projects}
 
-\textbf{CraftMyDoc | Distributed Document Processing} \hfill \textit{Python, Flask, Laravel, Javascript}
-\begin{itemize}[leftmargin=*, itemsep=2pt]
-    \item Designed a scalable document conversion engine handling PDF/Image processing via asynchronous task queues.
-    \item Implemented a background removal tool using OpenCV and deep learning models, achieving 98\% accuracy in edge detection.
+\textbf{Basil Woods School ERP | Enterprise Management} \hfill \textit{Laravel, Vue.js, Tailwind CSS}
+\begin{itemize}[leftmargin=*]
+    \item Developed a modular system to manage student records and administrative workflows for educational institutions.
+    \item Implemented atomic transactions to resolve concurrency issues in class and resource scheduling.
 \end{itemize}
 
-\textbf{Basilwood School ERP | School Management System} \hfill \textit{Laravel, MySQL, JavaScript}
-\begin{itemize}[leftmargin=*, itemsep=2pt]
-    \item Developed a modular School ERP system to manage student records, staff data, schedules, and administrative workflows.
-    \item Resolved double-allocation issues in class and resource scheduling by implementing database-level row locking and atomic transactions.
-    \item Built role-based admin dashboards for school administrators to manage operations with data-driven insights.
-    \item Optimized database queries and indexing strategies to ensure consistent performance under concurrent access.
+\textbf{Book Marathon | Inventory Management System} \hfill \textit{PHP, Laravel, MySQL, AJAX}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Engineered} a web-based inventory system for tracking stock, returns, and real-time sales transactions.
+    \item \textbf{Implemented} secure RBAC and AJAX-based dashboards, reducing manual tracking errors by 25\%.
 \end{itemize}
 
+\textbf{CraftMyDoc | Digital Productivity Platform} \hfill \textit{Python, Flask, Laravel}
+\begin{itemize}[leftmargin=*]
+    \item Integrated OpenCV for background removal and document conversion into a unified resume-building tool.
+\end{itemize}
 
 %==================== EDUCATION ====================
 \section{Education}
-\textbf{Bachelor of Technology (or Science) in Computer Science} \hfill \textit{Graduated Month Year} \\
-Relevant Coursework: Algorithms, Operating Systems, Computer Networks, Distributed Systems
+
+\textbf{Chhattisgarh Swami Vivekanand Technical University} \hfill \textit{Bhilai, India} \\
+\textit{Bachelor of Technology in Computer Science and Engineering} \hfill \textit{2019 -- 2023} 
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Coursework:} Data Structures, OS, DBMS, Distributed Systems, Computer Networks.
+    \item \textbf{Goal:} Preparing for \textbf{GATE 2026 (Data Science \& AI)} focusing on Linear Algebra and Neural Networks.
+\end{itemize}
 
 \end{document}
