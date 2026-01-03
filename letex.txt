@@ -1,6 +1,6 @@
-\documentclass[10pt,a4paper]{article} % Reduced font to 10pt for better fit
+\documentclass[10pt,a4paper]{article} 
 
-\usepackage[left=1.0cm,right=1.0cm,top=1.0cm,bottom=1.0cm]{geometry} % Tightened margins
+\usepackage[left=1.2cm,right=1.2cm,top=1.5cm,bottom=1.0cm]{geometry} 
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
@@ -9,21 +9,21 @@
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
 
-% Tightened section formatting
+% Adjusted section formatting for better white space
 \titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{6pt}{4pt}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
 
-% Custom list settings to save space
-\setlist[itemize]{noitemsep, topsep=0pt, parsep=2pt, partopsep=0pt}
+% List settings with slightly more vertical space between items
+\setlist[itemize]{noitemsep, topsep=2pt, parsep=3pt, partopsep=0pt}
 
 \begin{document}
 
 %==================== HEADER ====================
 \begin{center}
-    {\Huge \textbf{AMAN KUMAR}} \\
-    \vspace{2pt}
+    {\fontsize{26}{26}\selectfont \textbf{AMAN KUMAR}} \\
+    \vspace{8pt}
     {\Large \textbf{Software Engineer}} \\ 
-    \vspace{2pt}
+    \vspace{4pt}
     \href{mailto:amansahu.er@gmail.com}{amansahu.er@gmail.com} \textperiodcentered \ 
     +91-8319151766 \textperiodcentered \ 
     \href{https://www.linkedin.com/in/aman-k-codes/}{LinkedIn} \textperiodcentered \ 
@@ -34,8 +34,8 @@
 \section{Technical Skills}
 \begin{itemize}[leftmargin=*]
     \item \textbf{Languages:} PHP (Laravel), JavaScript (Vue.js, jQuery), Python (Flask), SQL (MySQL)
-    \item \textbf{Tools \& Frameworks:} Livewire, AJAX, Tailwind CSS, Docker, Redis, Git, GitHub, Postman
-    \item \textbf{Core Competencies:} System Design, RESTful API Development, Database Optimization, GATE DA \& AI Aspirant
+    \item \textbf{Tools \& Frameworks:} Livewire, AJAX, Tailwind CSS, GitHub, Postman
+    \item \textbf{Core Competencies:} System Design, RESTful API Development, Database Optimization
 \end{itemize}
 
 %==================== EXPERIENCE ====================
@@ -82,7 +82,7 @@
 \section{Education}
 
 \textbf{Chhattisgarh Swami Vivekanand Technical University} \hfill \textit{Bhilai, India} \\
-\textit{Bachelor of Technology in Computer Science and Engineering} \hfill \textit{2019 -- 2023} 
+\textit{Bachelor of Technology in Computer Science and Engineering} \hfill \textit{2019 -- 2023}
 \begin{itemize}[leftmargin=*]
     \item \textbf{Coursework:} Data Structures, OS, DBMS, Distributed Systems, Computer Networks.
     \item \textbf{Goal:} Preparing for \textbf{GATE 2026 (Data Science \& AI)} focusing on Linear Algebra and Neural Networks.
