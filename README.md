@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Aman Sahu</h1>
-<h3 align="center">Machine Learning Engineer | Full-Stack Architect | GATE 2026 DA & AI Aspirant</h3>
+<h3 align="center">Machine Learning Engineer | Full-Stack Architect </h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
